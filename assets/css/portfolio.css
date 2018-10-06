@@ -176,16 +176,34 @@ li a:hover {
     body {
         background-color: burlywood;
     }
+
+    
+    .container {
+        max-width: 850px;
+        float: right;
+        margin-left: auto;
+        background-color: green;
+    }
 }
 
 @media screen and (max-width: 768px) {
     body {
         background-color: brown;
     }
+    .container {
+        max-width: 850px;
+        float: left;
+        margin-left: auto;
+        background-color: green;
+    }
 }
 
 @media screen and (max-width: 640px) {
     body {
         background-color: hotpink;
+    }
+
+    .grid1{
+        width: 99.5%;
     }
 }

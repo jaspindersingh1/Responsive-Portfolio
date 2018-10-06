@@ -118,16 +118,32 @@ p {
     body {
         background-color: burlywood;
     }
+
+    .main_content {
+        max-width: 850px;
+        float: left;
+        margin-left: auto;
+        background-color: green;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
     body {
         background-color: brown;
     }
+
+    .main_content {
+        background-color: green;
+    }
+    
 }
+
 
 @media screen and (max-width: 640px) {
     body {
         background-color: hotpink;
     }
+ 
+
 }
