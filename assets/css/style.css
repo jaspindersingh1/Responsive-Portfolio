@@ -114,3 +114,20 @@ p {
     border-top: #4aaaa5 solid 10px;
 }
 
+@media screen and (max-width: 980px) {
+    body {
+        background-color: burlywood;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: hotpink;
+    }
+}
