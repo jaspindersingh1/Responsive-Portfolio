@@ -1,58 +1,57 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/contact.css" />
-    </head>
+<!doctype html>
+<html lang="en-us">
 
-    <body>
-    
-            <header>
-                <h1>
-                    Jaspinder Singh
-                </h1>
-                <div class="nav">
-                    <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </header>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Jaspinder</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-            <div class="background_img">
+<body>
 
-                <div class="container">
-                    
-                    <div class="contact">
-                        Contact
-                    </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Jaspinder</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                    <div class="hline1">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-                    </div>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-                    <form class="form">
-                        Name:<br>
-                        <input class="name" type="text" name="Name" value="First Last">
-                        <br>
-                        Email:<br>
-                        <input class="email" type="text" name="email" value="email@gmail.com">
-                        <br>
-                        Message:<br>
-                        <input class="message" type="text" name="message" value="">
-                        <br><br>
-                        <button class="btn" type="button">Submit</button>
+    </section>
 
-                      </form>                
-                </div>                
-            </div>
-            
-            <div class="footer">
-                    Copyright ©
-            </div>
+  </div>
 
-    </body>
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
